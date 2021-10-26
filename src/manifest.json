@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "nuke.js" ],
+      "matches": [ "http://*.reddit.com/*", "https://*.reddit.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "manifest_version": 2,
+   "name": "Reddit Mod Nuke Extension",
+   "description": "For mods who want to 'nuke' (recursively delete) bad comment threads",
+   "version": "6.284.0.0",
+   "browser_specific_settings": {
+     "gecko": {
+       "strict_min_version": "49.0"
+     }
+   },
+   "web_accessible_resources": [ "nuke.png" ]
+}

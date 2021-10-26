@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "js": [ "nuke.js" ],
+      "matches": [ "http://*.reddit.com/*", "https://*.reddit.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "For mods who want to 'nuke' (recursively delete) bad comment threads",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDU6x/jmG2m6/nSusug2pQXmg/7R4Lv3nebgFpPgONAAxz18IWKL4/5nBqqOU5BWXrPkcUc8lQjBoT2NFC6++ClUIA5hU3kwGCy5FmRJIZ9UeOWAulddSEYUP5KAGSh5RhHaJbONoDpDYISXSn/mVVCdFUEYX7pl6q3mdcVxQgzKQIDAQAB",
+   "manifest_version": 2,
+   "name": "Reddit Mod Nuke Extension",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.283.185.307",
+   "web_accessible_resources": [ "nuke.png" ]
+}
