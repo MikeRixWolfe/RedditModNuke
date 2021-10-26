@@ -4,4 +4,4 @@ This code is a version of the [Reddit Mod Nuke Extension by Dr Jimbob](https://c
 
 ## Installation Instructions
 
-Download the latest .xpi file from the [Releases](releases) page and then navigate to `about:addons` in your browser, click the gear at the top right and install the .xpi file as an add-on.
+Download the latest .xpi file from the [Releases](https://github.com/MikeRixWolfe/RedditModNuke/releases) page and then navigate to `about:addons` in your browser, click the gear at the top right and install the .xpi file as an add-on.
